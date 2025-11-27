@@ -41,7 +41,7 @@ const getWeekDay = (date) => {
   return DAYS[new Date(date * 1000).getDay()];
 };
 const renderForecastWeather = (data) => {
-  data = data.list.filter((obj) => obj.dt_txt.endsWith("18:00:00"));
+  data = data.list.filter((obj) => obj.dt_txt.endsWith("12:00:00"));
   data.forEach((i) => {
     const forecastJsx = `
   <div><img alt="weather icon"  src="https://openweathermap.org/img/wn/${
