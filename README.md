@@ -22,3 +22,15 @@ You can search by city name or get the weather based on your current location.
 ## 🚀 How to Run
 
 1. Clone the project:
+
+
+## 🛠 Technologies Used
+- HTML
+- CSS
+- JavaScript
+- OpenWeatherMap API
+
+---
+
+## 🔗 API Docs
+https://openweathermap.org/api
